@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bcfcc308-d786-420b-91b2-504820f81f82"
+mode="Global"
+rxversion="8.2">
+	<name>
+		Test2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Test2"
+	namespace="HelloWorldKTSample2">
+	</codegen>
+	<variables>
+		<var
+		id="711b30b1-3100-4546-be0b-0fa1742912fa"
+		name="testvar">
+			Test123
+		</var>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="79d654d6-95b3-4841-8a93-dcdb48994104"
+	name="HelloWorldKTSample2Repository"
+	relativepath="HelloWorldKTSample2Repository.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="HelloWorldKTSample2Repository"
+		namespace="HelloWorldKTSample2">
+		</codegen>
+		<rootfolder
+		id="83a06085-3921-406c-bbbb-c68185b00f6b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Test2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

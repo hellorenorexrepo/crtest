@@ -1,0 +1,11 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="HelloWorldKTSample2.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="HelloWorldKTSample2.rxtst" />
+    <Element value="HelloKeywordsearch.rxrec" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

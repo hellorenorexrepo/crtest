@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{5D686DED-CB30-42FD-A462-CFDDB14DB59C}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>HelloWorldKTSample2</RootNamespace>
+    <AssemblyName>HelloWorldKTSample2</AssemblyName>
+    <RanorexVersion>8.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>d749a317-4520-44f5-98b1-5e59fef71720</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>00cc3a22-e464-43e6-a2ee-d7221550915e</id>
+    </Compile>
+    <Compile Include="HelloWorldKTSample2Repository.cs">
+      <BoundTo>d749a317-4520-44f5-98b1-5e59fef71720</BoundTo>
+      <DependentUpon>HelloWorldKTSample2Repository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>e22ac22d-48a1-4919-a2e9-21970e200799</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>fd864d72-84dc-438f-9763-8922fe4709cd</id>
+    </Compile>
+    <Compile Include="HelloKeywordsearch.cs">
+      <BoundTo>ff08a81f-4ae8-4de2-8136-12e10745b0d1</BoundTo>
+      <DependentUpon>HelloKeywordsearch.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fc84113a-165f-4a8e-bdef-a3e1fb28f40b</id>
+    </Compile>
+    <Compile Include="HelloKeywordsearch.UserCode.cs">
+      <BoundTo>ff08a81f-4ae8-4de2-8136-12e10745b0d1</BoundTo>
+      <DependentUpon>HelloKeywordsearch.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0527bc8a-bf3c-4112-bc9a-a35d25d1c12c</id>
+    </Compile>
+    <Compile Include="Test1.cs">
+      <BoundTo>3de2d449-2100-4f73-97b5-248cb229cdc5</BoundTo>
+      <DependentUpon>Test1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>da0c6d24-6a7a-4f6b-8a1e-c95c575db569</id>
+    </Compile>
+    <Compile Include="Test1.UserCode.cs">
+      <BoundTo>3de2d449-2100-4f73-97b5-248cb229cdc5</BoundTo>
+      <DependentUpon>Test1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9b566606-c4d9-4fe6-b3a4-433169530057</id>
+    </Compile>
+    <Compile Include="Test2.cs">
+      <BoundTo>d52cb71d-4c9c-46ec-9215-07b36c156ee9</BoundTo>
+      <DependentUpon>Test2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>576798df-343a-48ad-a152-92d76e753574</id>
+    </Compile>
+    <Compile Include="Test2.UserCode.cs">
+      <BoundTo>d52cb71d-4c9c-46ec-9215-07b36c156ee9</BoundTo>
+      <DependentUpon>Test2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9bd899dc-4ba8-4add-b4a6-6a49ed222a77</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>b86afc67-bd03-4570-a602-9739abd691e1</id>
+    </None>
+    <Content Include="HelloTest.csv">
+      <Link>HelloTest.csv</Link>
+      <BoundTo>d5bb8d0f-9c49-4a1b-a748-11bb06d20739</BoundTo>
+      <DependentUpon>HelloWorldKTSample2.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>710ea2fb-3730-415c-a0d3-e0a7dab8c15e</id>
+    </Content>
+    <None Include="HelloWorldKTSample2Repository.rximg">
+      <BoundTo>d749a317-4520-44f5-98b1-5e59fef71720</BoundTo>
+      <DependentUpon>HelloWorldKTSample2Repository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>a3875ae4-2494-4052-9e7b-6ff1678993bf</id>
+    </None>
+    <None Include="HelloWorldKTSample2Repository.rxrep">
+      <id>d749a317-4520-44f5-98b1-5e59fef71720</id>
+      <repoid>79d654d6-95b3-4841-8a93-dcdb48994104</repoid>
+      <reporootid>83a06085-3921-406c-bbbb-c68185b00f6b</reporootid>
+    </None>
+    <None Include="HelloKeywordsearch.rxrec">
+      <BoundTo>d749a317-4520-44f5-98b1-5e59fef71720</BoundTo>
+      <id>ff08a81f-4ae8-4de2-8136-12e10745b0d1</id>
+      <recordtableid>8e12bb38-9dae-4313-92a8-8bda17ea5277</recordtableid>
+    </None>
+    <None Include="Test1.rxrec">
+      <BoundTo>d749a317-4520-44f5-98b1-5e59fef71720</BoundTo>
+      <id>3de2d449-2100-4f73-97b5-248cb229cdc5</id>
+      <recordtableid>6a6b4099-fe1e-4f8a-aa2e-47d1529f75aa</recordtableid>
+    </None>
+    <None Include="Test2.rxrec">
+      <BoundTo>d749a317-4520-44f5-98b1-5e59fef71720</BoundTo>
+      <id>d52cb71d-4c9c-46ec-9215-07b36c156ee9</id>
+      <recordtableid>bcfcc308-d786-420b-91b2-504820f81f82</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HelloWorldKTSample2.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>24d5ac51-11c5-4c3c-94ca-7060007d65f8</id>
+    </Content>
+    <Content Include="HelloWorldKTSample2.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>d5bb8d0f-9c49-4a1b-a748-11bb06d20739</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

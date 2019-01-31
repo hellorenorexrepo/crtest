@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.2">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="HelloWorldKTSample2"
+      id="5f043484-7c54-492b-8707-ad88fe0f87fa"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="HelloWorldKTSample2"
+      id="5f043484-7c54-492b-8707-ad88fe0f87fa"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

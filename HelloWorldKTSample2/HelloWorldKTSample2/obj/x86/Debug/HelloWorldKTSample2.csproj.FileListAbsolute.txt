@@ -1,0 +1,10 @@
+D:\Learning\Ranorex\HelloWorldKTSample2\HelloWorldKTSample2\bin\Debug\HelloWorldKTSample2.rxtmg
+D:\Learning\Ranorex\HelloWorldKTSample2\HelloWorldKTSample2\bin\Debug\HelloWorldKTSample2.rxtst
+D:\Learning\Ranorex\HelloWorldKTSample2\HelloWorldKTSample2\bin\Debug\HelloWorldKTSample2.exe.config
+D:\Learning\Ranorex\HelloWorldKTSample2\HelloWorldKTSample2\bin\Debug\HelloWorldKTSample2.exe
+D:\Learning\Ranorex\HelloWorldKTSample2\HelloWorldKTSample2\bin\Debug\HelloWorldKTSample2.pdb
+D:\Learning\Ranorex\HelloWorldKTSample2\HelloWorldKTSample2\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Learning\Ranorex\HelloWorldKTSample2\HelloWorldKTSample2\obj\x86\Debug\HelloWorldKTSample2.csprojResolveAssemblyReference.cache
+D:\Learning\Ranorex\HelloWorldKTSample2\HelloWorldKTSample2\obj\x86\Debug\HelloWorldKTSample2.exe
+D:\Learning\Ranorex\HelloWorldKTSample2\HelloWorldKTSample2\obj\x86\Debug\HelloWorldKTSample2.pdb
+D:\Learning\Ranorex\HelloWorldKTSample2\HelloWorldKTSample2\bin\Debug\HelloTest.csv

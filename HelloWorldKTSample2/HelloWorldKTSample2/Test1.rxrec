@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6a6b4099-fe1e-4f8a-aa2e-47d1529f75aa"
+mode="Global"
+rxversion="8.2">
+	<name>
+		Test1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Test1"
+	namespace="HelloWorldKTSample2">
+	</codegen>
+	<variables>
+		<var
+		id="09153c71-55a8-46e0-913c-cab53d419f8b"
+		name="Test">
+			2144
+		</var>
+	</variables>
+	<recorditems>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="671ec6bb-47b8-423c-8064-c3985a0e12f6">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="Test">
+				</binding>
+			</bindings>
+			<info
+			id="65535af5-1e60-4511-95e7-accd1442b488"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.google.com']//input[@title='Search']
+				</path>
+			</info>
+			<AttributeValue>
+			</AttributeValue>
+		</setvaluerecorditem>
+	</recorditems>
+	<repository
+	id="79d654d6-95b3-4841-8a93-dcdb48994104"
+	name="HelloWorldKTSample2Repository"
+	relativepath="HelloWorldKTSample2Repository.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="HelloWorldKTSample2Repository"
+		namespace="HelloWorldKTSample2">
+		</codegen>
+		<rootfolder
+		id="83a06085-3921-406c-bbbb-c68185b00f6b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Test1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
