@@ -138,15 +138,15 @@
       <UserCode>true</UserCode>
       <id>0527bc8a-bf3c-4112-bc9a-a35d25d1c12c</id>
     </Compile>
-    <Compile Include="Test1.cs">
+    <Compile Include="TestModule.cs">
       <BoundTo>3de2d449-2100-4f73-97b5-248cb229cdc5</BoundTo>
-      <DependentUpon>Test1.rxrec</DependentUpon>
+      <DependentUpon>TestModule.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>da0c6d24-6a7a-4f6b-8a1e-c95c575db569</id>
     </Compile>
-    <Compile Include="Test1.UserCode.cs">
+    <Compile Include="TestModule.UserCode.cs">
       <BoundTo>3de2d449-2100-4f73-97b5-248cb229cdc5</BoundTo>
-      <DependentUpon>Test1.rxrec</DependentUpon>
+      <DependentUpon>TestModule.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>9b566606-c4d9-4fe6-b3a4-433169530057</id>
     </Compile>
@@ -190,7 +190,7 @@
       <id>ff08a81f-4ae8-4de2-8136-12e10745b0d1</id>
       <recordtableid>8e12bb38-9dae-4313-92a8-8bda17ea5277</recordtableid>
     </None>
-    <None Include="Test1.rxrec">
+    <None Include="TestModule.rxrec">
       <BoundTo>d749a317-4520-44f5-98b1-5e59fef71720</BoundTo>
       <id>3de2d449-2100-4f73-97b5-248cb229cdc5</id>
       <recordtableid>6a6b4099-fe1e-4f8a-aa2e-47d1529f75aa</recordtableid>

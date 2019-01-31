@@ -24,22 +24,22 @@ namespace HelloWorldKTSample2
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Test1 recording.
+    ///The TestModule recording.
     /// </summary>
     [TestModule("6a6b4099-fe1e-4f8a-aa2e-47d1529f75aa", ModuleType.Recording, 1)]
-    public partial class Test1 : ITestModule
+    public partial class TestModule : ITestModule
     {
         /// <summary>
         /// Holds an instance of the HelloWorldKTSample2Repository repository.
         /// </summary>
         public static HelloWorldKTSample2Repository repo = HelloWorldKTSample2Repository.Instance;
 
-        static Test1 instance = new Test1();
+        static TestModule instance = new TestModule();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Test1()
+        public TestModule()
         {
             Test = "2144";
         }
@@ -47,7 +47,7 @@ namespace HelloWorldKTSample2
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Test1 Instance
+        public static TestModule Instance
         {
             get { return instance; }
         }
