@@ -95,7 +95,7 @@ namespace HelloWorldKTSample2
                     base("Google", "/dom[@domain='www.google.com']", parentFolder, 30000, null, false, "19e11506-6475-4e2f-8b72-3406c7019163", "")
             {
                 _inputtagqInfo = new RepoItemInfo(this, "InputTagQ", ".//input[@title='Search']", 30000, null, "65535af5-1e60-4511-95e7-accd1442b488");
-                _resultstatsInfo = new RepoItemInfo(this, "ResultStats", ".//div[@id='resultStats']", 30000, null, "65b61fc8-5eea-45cd-b4f6-3258a8418c4a");
+                _resultstatsInfo = new RepoItemInfo(this, "ResultStats", ".//div[@id='resultStatsxyz']", 30000, null, "65b61fc8-5eea-45cd-b4f6-3258a8418c4a");
             }
 
             /// <summary>

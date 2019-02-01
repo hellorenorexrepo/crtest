@@ -38,7 +38,7 @@ rxversion="8.2">
 			name="ResultStats"
 			refimgid="b17daf73-9963-496f-8d48-655340d95294"
 			searchtimeout="30000ms">
-				/dom[@domain='www.google.com']//div[@id='resultStats']
+				/dom[@domain='www.google.com']//div[@id='resultStatsxyz']
 			</item>
 			<basepath>
 				/dom[@domain='www.google.com']
