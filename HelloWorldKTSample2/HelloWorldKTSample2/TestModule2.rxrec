@@ -5,7 +5,7 @@ id="bcfcc308-d786-420b-91b2-504820f81f82"
 mode="Global"
 rxversion="8.2">
 	<name>
-		Test2
+		TestModule2
 	</name>
 	<repeatcount>
 		1
@@ -23,7 +23,7 @@ rxversion="8.2">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Test2"
+	classname="TestModule2"
 	namespace="HelloWorldKTSample2">
 	</codegen>
 	<variables>
@@ -51,7 +51,7 @@ rxversion="8.2">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Test2.UserCode.cs
+		TestModule2.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

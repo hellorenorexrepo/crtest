@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace HelloWorldKTSample2
 {
-    public partial class Test2
+    public partial class TestModule2
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
